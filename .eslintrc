@@ -1,0 +1,29 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "jest": true
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "plugins": ["react", "import"],
+  "settings": {
+    "import/resolver": {
+      "webpack": {
+        "config": "./.storybook/main.js"
+      }
+    }
+  },
+  "rules": {
+    "import/prefer-default-export": "off",
+    "react/react-in-jsx-scope": "off",
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "quotes": [2, "double", { "avoidEscape": true }],
+    "react/jsx-props-no-spreading": "off"
+  }
+}
