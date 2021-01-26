@@ -1,0 +1,2 @@
+import{jsx as r}from"react/jsx-runtime";import e from"styled-components";import t from"prop-types";import{card as o}from"./style.js";var n=e("div").withConfig({componentId:"sc-1pt5q24-0"})(["",""],(function(r){return r._css})),s=function(e){var t=e.children,s=e.style;return r(n,{_css:[o,s],children:t})};s.propTypes={children:t.node.isRequired,style:t.oneOfType([t.object,t.string])},s.defaultProps={style:null};export{s as Card};
+//# sourceMappingURL=Card.js.map

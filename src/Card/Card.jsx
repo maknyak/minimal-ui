@@ -4,7 +4,7 @@ import { card } from "./style";
 /**
  * Card adalah sebuah wadah konten yang fleksibel dan dapat dikonfigurasi dengan berbagai opsi.
  */
-const Card = ({ children, style }) => (
+export const Card = ({ children, style }) => (
   <div css={[card, style]}>{children}</div>
 );
 
@@ -22,5 +22,3 @@ Card.propTypes = {
 Card.defaultProps = {
   style: null,
 };
-
-export default Card;

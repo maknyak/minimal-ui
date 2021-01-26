@@ -1,0 +1,2 @@
+import{jsx as r}from"react/jsx-runtime";import e from"styled-components";import t from"prop-types";import{cardBody as o}from"./style.js";import{memo as n}from"react";var i=e("div").withConfig({componentId:"zqki4m-0"})(["",""],(function(r){return r._css})),s=n((function(e){var t=e.children,n=e.style;return r(i,{_css:[o,n],children:t})}));s.propTypes={children:t.node.isRequired,style:t.oneOfType([t.object,t.string])},s.defaultProps={style:null};export{s as CardBody};
+//# sourceMappingURL=CardBody.js.map

@@ -10,7 +10,7 @@ export const Textarea = ({
     rows={rows}
     placeholder={placeholder}
     disabled={disabled}
-    onChange={onChange}
+    onChange={e => onChange(e.target.value)}
     onBlur={onBlur}
     css={[textarea, style]}
     {...props}
